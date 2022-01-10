@@ -1,3 +1,4 @@
+window.history.back();
 const quiz = [
 	{
 		id: 1,
