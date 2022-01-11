@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<center>
+		<h2>NOTE: SWITCHING OF TABS IS CONSIDERED AS MALPRACTICE</h2>
+		<h2>Answer this question to Display the next question</h2>
+		<div class="container" id="container">
+			<div class="quiz-box">
+
+					<h3 id="question"></h3>
+
+					<div class="quiz-ans">
+						<button id="0options" onclick="active(id)"></button>
+						<button id="1options" onclick="active(id)"></button>
+						<button id="2options" onclick="active(id)"></button>
+						<button id="3options" onclick="active(id)"></button>
+					</div>
+					<br>
+					<button onclick="CheckAns()" id="next">Next</button>
+					
+			</div>
+		</div>
+	</center>
+
+</body>
+<script src='script.js'></script>
+
+</html>
