@@ -30,5 +30,20 @@
 
 </body>
 <script src='script.js'></script>
+<script type="text/javascript">
 
+	window.onbeforeunload = function(){
+		var msg = "Changes you made may not be saved.";
+		return msg; 
+	}
+
+	document.addEventListener("visibilitychange", function(){
+		
+
+		document.write("<div class='result' style='display: grid; place-items: center;'>");
+			document.title = "Malpractice";
+			document.write("<h1>Switching of tabs is considered as a Malpractice. You have been blocked from Writing this exam.</h1>")
+		document.write("</div>")
+	})
+</script>
 </html>
