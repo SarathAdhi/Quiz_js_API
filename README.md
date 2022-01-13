@@ -1,4 +1,4 @@
-Quiz Website Link: https://sarathadhi.github.io/Quiz/
+Quiz Website Link: https://sarathadhi.github.io/Quiz_js_API/
 
 My Folio Website: https://sarathadhi.netlify.app/
 
